@@ -49,6 +49,7 @@
             this.dgvProcesses.Name = "dgvProcesses";
             this.dgvProcesses.Size = new System.Drawing.Size(918, 486);
             this.dgvProcesses.TabIndex = 0;
+            this.dgvProcesses.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProcesses_CellContentClick);
             // 
             // btnSetPriority
             // 
@@ -68,6 +69,7 @@
             this.cmbPriority.Name = "cmbPriority";
             this.cmbPriority.Size = new System.Drawing.Size(121, 22);
             this.cmbPriority.TabIndex = 2;
+            this.cmbPriority.SelectedIndexChanged += new System.EventHandler(this.cmbPriority_SelectedIndexChanged);
             // 
             // lblCurrentPriority
             // 

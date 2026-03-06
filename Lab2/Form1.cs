@@ -191,5 +191,15 @@ namespace Lab2
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void dgvProcesses_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void cmbPriority_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
